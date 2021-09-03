@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Ejercicio Clase 6 SocketIO</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+    <h1 class="titulos tituloContacto">Sala de Chat</h1>
+    <div class="contact-form">
+        <form action="" method="" id="contact-form">
+            <fieldset>
+                <legend>Enviar nuevos mensajes</legend>
+                    <input type="text" name="title" placeholder="Nombre" class="form-control" id="nombre" required> 
+                    <br>
+                    <input type="text" name="price" placeholder="Mensaje" class="form-control" id="mensaje" required>
+                    <br>
+                    <div class="form__button">
+                        <input type="reset" value="Limpiar Mensaje" class="form-control form-button">
+                        <input type="submit" value="Enviar Mensaje" class="form-control form-button " id="enviarMensaje">
+                    </div>
+            </fieldset>
+        </form>
+        
+    </div>
+
+    <div id="messagesList"></div>
+
+
+    <script src="/public/io.js"></script>
+
+</body>
+</html>

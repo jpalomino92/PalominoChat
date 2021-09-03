@@ -1,0 +1,70 @@
+.tituloContacto {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.contact-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+form {
+	margin-top: 30px;
+}
+.form-control {
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #36424f;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+form .form-button {
+	background: #36424f;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin: 10px;
+	width: 250px;
+}
+
+.form__button {
+	display: flex;
+	justify-content: space-between;
+}
+
+#map {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 100%;
+	/* The width is the width of the web page */
+	border: 0;
+}
+
+#footerContacto {
+	margin-top: 0;
+}
+
+.productsGrid {
+	display: grid;
+}
+
+#messages {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#messages > li {
+	padding: 0.5rem 1rem;
+}
+#messages > li:nth-child(odd) {
+	background: #efefef;
+}
